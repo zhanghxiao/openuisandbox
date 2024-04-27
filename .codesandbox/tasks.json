@@ -1,0 +1,10 @@
+{
+  "setupTasks": [],
+  "tasks": {
+    "start": {
+      "name": "Start mistp/openui container",
+      "command": "docker run -p 7878:7878 -e OPENAI_API_KEY=$OPENAI_API_KEY mistp/openui",
+      "runAtStart": true
+    }
+  }
+}
